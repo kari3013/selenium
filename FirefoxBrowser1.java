@@ -9,6 +9,6 @@ public class FirefoxBrowser1 {
         WebDriver driver= new FirefoxDriver();
         driver.get("https://demo.nopcommerce.com/");
         driver.manage().window().maximize();
-        driver.close();
+
     }
 }
